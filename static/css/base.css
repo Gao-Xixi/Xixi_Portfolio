@@ -1,0 +1,14 @@
+h1{
+    color: red;
+}
+body{
+    font-family: 'Source Sans Pro',sans-serif;
+    font-size: 18px;
+}
+.project_entry a:hover{
+    color:red;
+}
+.project_entry p{
+    font-weight: 500;
+    margin: 0;
+}
