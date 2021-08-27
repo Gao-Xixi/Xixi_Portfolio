@@ -1,0 +1,15 @@
+<html>
+    <header>
+        <title>contact</title>
+    </header>
+    <body>
+        <h1>Contact me!</h1>
+        <form action="" method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <input type="submit" value="Save">
+    </form>
+    </body>
+</html>
+
+    
