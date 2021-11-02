@@ -2,33 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b210657-aa66-4877-a6d6-d40e15cd3bcc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/myportfolio/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/projects.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/myportfolio/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/myportfolio/migrations/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/myportfolio/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/myportfolio/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/myportfolio/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/migrations/0002_project_title.py" beforeDir="false" afterPath="$PROJECT_DIR$/myportfolio/migrations/0002_project_title.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/myportfolio/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/myportfolio/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/myportfolio/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/projectdetail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/projecthome.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myportfolio/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/myportfolio/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myportfolio/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/myportfolio/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myportfolio/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/myportfolio/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myportfolio/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/myportfolio/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/projects.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +81,7 @@
       <option name="presentableId" value="Default" />
       <updated>1633908557399</updated>
       <workItem from="1633908559718" duration="42000" />
-      <workItem from="1635804908126" duration="14785000" />
+      <workItem from="1635804908126" duration="16412000" />
     </task>
     <servers />
   </component>
