@@ -23,10 +23,10 @@ class ProjectTest(TestCase):
         resp = self.client.get(reverse('project_home'))
         self.assertEqual(resp.status_code,200)
         self.assertContains(resp, 'test')
-        self.assertTemplateUsed(resp, 'projecthome.html')
+        self.assertTemplateUsed(resp, 'projects.html')
 
     def test_project_detail_view(self):
-        resp = self.client.get('/projects/1/')
+        resp = self.client.get('/myportfolio/1/')
         self.assertEqual(resp.status_code,200)
         self.assertContains(resp, 'a small test')
         self.assertTemplateUsed(resp, 'projectdetail.html')
