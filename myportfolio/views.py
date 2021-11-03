@@ -1,6 +1,7 @@
 from datetime import datetime
 
 from django.db import models
+from django.http import HttpResponse
 from django.shortcuts import render
 from django.urls import reverse
 from django.views.generic import TemplateView, CreateView
@@ -26,3 +27,10 @@ class ContactView(CreateView):
 
     def get_success_url(self):
         return reverse('home')
+# class ResumeView(TemplateView):
+#     def pdf_view(request):
+#         with open('../static/resume.pdf', 'r') as pdf:
+#             response = HttpResponse(pdf.read(), content_type='application/pdf')
+#             response['Content-Disposition'] = 'inline;filename=some_file.pdf'
+#             return response
+#         pdf.closed
