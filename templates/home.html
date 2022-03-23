@@ -1,15 +1,30 @@
 {% extends 'base.html' %}
 
 {% block content %}
-    <div class="container" style="margin: 10%; width: 42%" >
-        <h1 style="color: white;font-family: 'Comic Sans MS' ">Hi, I'm Xixi.</h1>
-        <h5 style="color: white;font-family: 'Comic Sans MS'" >I am a computer science student in York University.</h5>
-        <h5 style="color: white;font-family: 'Comic Sans MS'">I like working on the both front-end and backend of the web.</h5>
-        <h5 style="color: white;font-family: 'Comic Sans MS'"> I am enthusiast about learning new things and solving daily problems by programming!
-        </h5>
-        <br>
-        <a class="btn btn-warning" href="{% url 'projects' %}">Go To Projects</a>
+    <div class="container" style="margin: 10%" >
+        <div class="row">
+                    <div class="col col-md-5" style="padding-left: 10%" align="center">
+                        <h1 style="color: white;font-family: 'Comic Sans MS' ">Hi, I'm Xixi.<span><i class='fa-solid fa-face-smile'></i></span></h1><br>
 
+                        <h5 style="color: white;font-family: 'Roboto Condensed'" >I'm an aspiring fullstack developer and a computer science student based in Toronto, ON.<br><hr>
+                            I am enthusiast about learning new things and solving hard problems by programming!<br><hr>
+                            Java | Python| Spring-boot | React.js | Django<br><hr>
+                        </h5>
+                        <h6 style="color: white; font-family: 'Roboto Condensed'">
+                            <i class="far fa-envelope"></i> gaoxixi@my.yorku.ca &nbsp;&nbsp;
+
+                             <i class="fas fa-graduation-cap"></i>  York University<br>
+                        </h6>
+                        <br>
+                        <a class="btn btn-warning" href="{% url 'projects' %}">Go To Projects</a>
+                    </div>
+                    <div class="col col-md-7" align="center">
+                        <img src="../static/images/myself.jpg" class="rounded-circle img-thumbnail" style= "width:50%">
+                        <br>
+                        <br>
+                        <H1 style="color: white;font-family: 'Roboto Condensed'">XIXI GAO</H1>
+                    </div>
+        </div>
 
     </div>
 {% endblock %}
